@@ -85,6 +85,12 @@ for i in range(24):
   t.forward(60)
   t.backward(60)
   t.left(15)
+#write text
+t.penup()
+t.goto(0,0)
+t.backward(300)
+t.write("Happy Independence Day", font=("Arial", 20, "bold"), align="center")
+t.pendown()
   
 #to hold the
 #output window
